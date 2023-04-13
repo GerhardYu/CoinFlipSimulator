@@ -1,0 +1,13 @@
+table, tbody, tr{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+#chart{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/**body{
+    background-image: url('https://www.gi-de.com/corporate/_processed_/3/1/csm_Header_fuer_Coin_Produktseite_4f289d8d54.webp');
+}**/

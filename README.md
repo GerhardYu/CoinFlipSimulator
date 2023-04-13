@@ -1,0 +1,1 @@
+A simple coin flip simulator that records the current heads or tails the user has flipped.

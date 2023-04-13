@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Just a simple coin flip simulator</h1>
+        <button type="button" id="submit" class="coin" onclick="coinFlip()">Flip</button>
+        <button type="button" id="submit" class="result_coin" onclick="graph()">Graph</button>
+        <br></br>
+        <br>
+        <table id="chart">
+            <thead>
+                <th>Result</th>
+            </thead>
+            <tbody>
+                <tr></tr>
+            </tbody>
+        </table>
+        <canvas id="myChart" style="width: 100%;max-width: 700px;"></canvas>
+</body>
+<script src="coin.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+</html>
